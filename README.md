@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,3 +53,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# Sudoku-Solver
+Website that lets you input an unsolved sudoku game and uses backtracking to fill in the blank spots.
+>>>>>>> 8a1d52690df9be3d27d9c226507d3dd3b9c1a721
