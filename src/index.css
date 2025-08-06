@@ -1,0 +1,135 @@
+div{
+    background-color: rgb(110, 148, 148);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    justify-content: center;
+    align-items: cexnter;
+    gap: 5px;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    border: solid 1px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(73, 98, 98);
+}
+
+.row3{
+    border-bottom-width: 5px;
+    border-style: solid;
+
+}
+.row6{
+    border-bottom-width: 5px;
+    border-style: solid;
+
+}
+.row9{
+    border-bottom-width: 5px;
+    border-style: solid;
+  
+}
+
+.row1{
+    border-top-width: 5px;
+    border-style: solid;
+
+}
+.row4{
+    border-top-width: 5px;
+    border-style: solid;
+
+}
+.row7{
+    border-top-width: 5px;
+    border-style: solid;
+  
+}
+
+.column3{
+    border-right-width: 5px;
+    border-style: solid;
+
+}
+.column6{
+    border-right-width: 5px;
+    border-style: solid;
+
+}
+.column9{
+    border-right-width: 5px;
+    border-style: solid;
+  
+}
+
+.column1{
+    border-left-width: 5px;
+    border-style: solid;
+
+}
+.column4{
+    border-left-width: 5px;
+    border-style: solid;
+
+}
+.column7{
+    border-left-width: 5px;
+    border-style: solid;
+  
+}
+
+h1{
+    text-align: center;
+    font-family:'Gill Sans';
+    color: rgb(54, 52, 49);
+}
+button {
+    border-style: solid;
+    color: blue;
+    border-radius: 20px;
+    background-color: rgb(158, 74, 74);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1); /* Grows the button on hover */
+    color: darkblue;
+  }
+
+  button:active{
+    background-color: aqua;
+  }
+
+  .filled {
+    animation: popIn 0.3s ease;
+  }
+  
+  @keyframes popIn {
+    0% {
+      transform: scale(1.4);
+      background-color: #dbeafe; /* light blue */
+    }
+    100% {
+      transform: scale(1);
+      background-color: white;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+
+
